@@ -9,7 +9,7 @@ import java.util.List;
 public class Order implements OrderDao {
     private int orderId;
     private int userId;
-    private int productId; // Строка, содержащая информацию о продуктах в заказе
+    private int productId;
     private int Quantity;
     private double totalPrice;
 
